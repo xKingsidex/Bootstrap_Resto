@@ -1,0 +1,29 @@
+
+
+body {
+    background-color: #333438;
+    color: #fff;
+    font-family: 'Lora', sans-serif;
+    
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.navbar {
+    background-color: #333438;
+}
+.navbar-brand, .nav-link {
+    color: #c1a068 !important;
+}
+.btn-reservation {
+    background-color: #c1a068;
+    border: none;
+    color: #333438;
+}
+.btn-reservation:hover {
+    background-color: #b08f5a;
+}
+
