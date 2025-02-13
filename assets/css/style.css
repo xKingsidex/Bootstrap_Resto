@@ -86,25 +86,7 @@ html {
     color: white !important;
     border: 1px solid #c1a068 !important;
 }
-.carousel {
-    max-width: 300px; /* Ajuster la taille du carrousel */
-    margin: auto; /* Centrer le carrousel */
-}
 
-.carousel-img {
-    width: 100%;
-    height: 300px; /* Ajuste la hauteur */
-    object-fit: cover;
-    border-radius: 50%; /* Rend l'image parfaitement circulaire */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+.card {
+    border-color: #c1a068 !important;
 }
-
-.carousel-indicators button {
-    background-color: #c1a068; /* Couleur des indicateurs */
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    filter: invert(100%); /* Rend les flèches blanches */
-}
-

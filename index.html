@@ -53,8 +53,9 @@
 
         <section id="about" class="min-vh-100 d-flex justify-content-center align-items-center flex-column text-center py-5">
             <h1 class="text-white display-3" style="color: #c1a068;">Bienvenue chez Le Gourmet Nomade</h1>
-            <p class="text-white lead">Découvrez une expérience culinaire unique.</p>
-            <article class="mt-5 px-3">
+            <p class="text-white lead fs-2">Découvrez une expérience culinaire unique.</p>
+            <img src="assets/img/logoResto.png" alt="Logo" width="200" height="200" class="d-inline-block align-text-top rounded">
+            <article class="mt-5 px-3 col-md-9">
                 <h3 class="text-white fs-4">
                     <i class="fa-solid fa-quote-left fa-1x me-5" style="color: #c1a068;"></i>
                     Chez <strong>Le Gourmet Nomade</strong>, chaque plat est une invitation au voyage. Nous transformons des ingrédients 
@@ -68,78 +69,97 @@
 
         <section id="menu" class="min-vh-100 d-flex justify-content-center align-items-center flex-column py-5">
             <p class="fs-1 mb-5" style="color: #c1a068;">NOTRE CARTE</p>
-            <div class="container mt-5 ">
-                <div class="row justify-content-center gap-4">
-                    <div class="col-md-3 d-flex flex-column align-items-center">
-                        <div id="carousel1" class="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="assets/img/resto1.jpeg" class="d-block w-100 rounded-circle carousel-img" alt="Image 1">
+            <div class="container mt-5">
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-4">
+                        <div class="card bg-dark border border-2 p-3" style="border-radius: 20px;" >
+                            <div id="carousel1" class="carousel slide" style="border-radius: 10px; overflow: hidden;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/E1.jpg" class="d-block w-100" alt="Plat 1" style="height: 300px; object-fit: cover;">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/E2.jpg" class="d-block w-100" alt="Plat 2" style="height: 300px; object-fit: cover;">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/E3.jpg" class="d-block w-100" alt="Plat 3" style="height: 300px; object-fit: cover;">
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/resto2.jpg" class="d-block w-100 rounded-circle carousel-img" alt="Image 2">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/resto3.jpg" class="d-block w-100 rounded-circle carousel-img" alt="Image 3">
-                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #c1a068;">Nos Entrées</h5>
+                                <p class="card-text text-white">Découvrez nos entrées raffinées, préparées avec des produits de saison.</p>
+                            </div>
                         </div>
-                        <p class="fs-1 mt-5" style="color: #fff;">Entrée</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark border border-2 p-3" style="border-radius: 20px;">
+                            <div id="carousel2" class="carousel slide" style="border-radius: 10px; overflow: hidden;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/P1.jpg" class="d-block w-100" alt="Plat 1" style="height: 300px; object-fit: cover;">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/P2.jpg" class="d-block w-100" alt="Plat 2" style="height: 300px; object-fit: cover;">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/P3.jpg" class="d-block w-100" alt="Plat 3" style="height: 300px; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #c1a068;">Nos Plats</h5>
+                                <p class="card-text text-white">Une sélection de plats principaux mêlant tradition et innovation.</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-md-3 d-flex flex-column align-items-center">
-                        <div id="carousel2" class="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="assets/img/resto2.jpg" class="d-block w-100 rounded-circle carousel-img" alt="Image 1">
+                    <div class="col-md-4">
+                        <div class="card bg-dark border border-2 p-3" style="border-radius: 20px;" >
+                            <div id="carousel3" class="carousel slide" style="border-radius: 10px; overflow: hidden;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/D1.jpg" class="d-block w-100" alt="Plat 1" style="height: 300px; object-fit: cover;">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/D2.jpg" class="d-block w-100" alt="Plat 2" style="height: 300px; object-fit: cover;">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/D3.jpg" class="d-block w-100" alt="Plat 3" style="height: 300px; object-fit: cover;">
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/resto3.jpg" class="d-block w-100 rounded-circle carousel-img" alt="Image 2">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/resto1.jpeg" class="d-block w-100 rounded-circle carousel-img" alt="Image 3">
-                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
-                        <p class="fs-1 mt-5" style="color: #fff;">Plat</p>
-                    </div>
-
-                    <div class="col-md-3 d-flex flex-column align-items-center">
-                        <div id="carousel3" class="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="assets/img/resto3.jpg" class="d-block w-100 rounded-circle carousel-img" alt="Image 1">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/resto1.jpeg" class="d-block w-100 rounded-circle carousel-img" alt="Image 2">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/resto2.jpg" class="d-block w-100 rounded-circle carousel-img" alt="Image 3">
-                                </div>
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #c1a068;">Nos Desserts</h5>
+                                <p class="card-text text-white">Terminez votre repas en beauté avec nos créations sucrées.</p>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
                         </div>
-                        <p class="fs-1 mt-5" style="color: #fff;">Dessert</p>
                     </div>
                 </div>
-                
             </div>
         </section>
 
